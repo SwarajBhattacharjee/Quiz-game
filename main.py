@@ -18,6 +18,7 @@ for i in range(len(question_data)-1):
     
 # print(question_bank[1].answer)
 
-quiz_brain = QuizBrain(question_bank)
+quiz = QuizBrain(question_bank)
 
-quiz_brain.next_question()
+while quiz.still_has_question():
+    quiz.next_question()

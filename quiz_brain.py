@@ -17,3 +17,8 @@ class QuizBrain():
 # Checking if the answer was correct
 
 # Checking if we are at the end of the quiz
+    def still_has_question(self):
+        if self.question_number <= len(self.question_list):
+            return True
+        else:
+            return False
