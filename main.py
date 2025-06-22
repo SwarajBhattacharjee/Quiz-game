@@ -1,6 +1,7 @@
 # Get all the data from data.py to main.py but in the form of list of question object from question_model.py
 from question_model import Question
 from data import question_data
+from quiz_brain import QuizBrain
 
 question_bank = []
 
@@ -15,4 +16,8 @@ for i in range(len(question_data)-1):
     new_q = Question(question_data[i]["text"],question_data[i]["answer"])
     question_bank.append(new_q)
     
-print(question_bank[1].answer)
+# print(question_bank[1].answer)
+
+quiz_brain = QuizBrain(question_bank)
+
+quiz_brain.next_question()
