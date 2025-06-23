@@ -12,13 +12,11 @@ question_bank = []
 #     new_q = Question(question_text,question_answer)
 #     question_bank.append(new_q)
 
-for i in range(len(question_data)-1):
+for i in range(len(question_data)):
     new_q = Question(question_data[i]["text"],question_data[i]["answer"])
     question_bank.append(new_q)
     
 # print(question_bank[1].answer)
-
 quiz = QuizBrain(question_bank)
-
 while quiz.still_has_question():
     quiz.next_question()
