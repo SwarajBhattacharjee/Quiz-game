@@ -1,7 +1,7 @@
 # Quiz Game
-[![CI](https://github.com/yourusername/quiz-game/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/quiz-game/actions)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/yourusername/quiz-game/blob/main/LICENSE)
-[![PyPI Version](https://img.shields.io/pypi/v/quiz-game)](https://pypi.org/project/quiz-game)
 
 
 Welcome to **Quiz Game**, a simple, interactive true/false quiz application built in Python. Questions are sourced via the Open Trivia Database (OpenTDB) API and organized into different categories. Users can choose how many questions to answer and receive immediate feedback on their responses.
@@ -117,12 +117,17 @@ The application will parse the JSON response and convert each question into a `Q
 
 ## Screenshots
 
-![Quiz Game Demo](docs/screenshot.gif)
-*Animated demo showing quiz flow and scoring.*
+1. **Choose Quiz Length**  
+   ![Choose quiz length prompt](docs/step-choose-length.png)
+
+2. **Answer Feedback**  
+   ![Feedback when you answer “True”](docs/step-answer-true.png)
+
+3. **Final Score**  
+   ![Final score summary](docs/step-final-score.png)
+
 
 ## Contributing
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines. In short:
 
 1. Fork the repository.
 2. Create your feature branch:
@@ -152,4 +157,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-Created by Swaraj Bhattacharjee. Feel free to reach out with questions or suggestions at [your.email@example.com](mailto:your.email@example.com).
+Created by Swaraj Bhattacharjee. Feel free to reach out with questions or suggestions at Swaraj Bhattacharjee (mailto:swarajbhattacharjee0@gmail.com).
